@@ -8,5 +8,5 @@ def pagamento(valor, atraso):
         return valor
     if atraso > 0:
         multa = valor * 0.03
-        adicionalatraso = valor * atraso * 0.01
-        return adicionalatraso
+        adicionalatraso = atraso * 0.01
+        return multa + adicionalatraso
