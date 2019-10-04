@@ -1,5 +1,5 @@
-    """Arquivo para calculo de parcela
-    """
+"""Arquivo para calculo de parcela
+"""
 
 def valorPagamento(valor, diasAtraso):
     """ Funcao que calcula pagamento
