@@ -1,6 +1,6 @@
-def valorPagamento(valor, diasAtraso):
+def pagamento(valor, diasAtraso):
 
-    if (valor < 0):
+    if valor < 0:
         return None
     if (diasAtraso > 0):
         multa = valor * 0.03
