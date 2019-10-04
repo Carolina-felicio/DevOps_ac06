@@ -1,8 +1,8 @@
+    """Arquivo para calculo de parcela
+    """
+
 def valorPagamento(valor, diasAtraso):
-    """Form a complex number.
-    Keyword arguments:
-    real -- the real part (default 0.0)
-    imag -- the imaginary part (default 0.0)
+    """ Funcao que calcula pagamento
     """
     if valor < 0:
         return None
