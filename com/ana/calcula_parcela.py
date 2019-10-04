@@ -1,6 +1,6 @@
 def pagamento(valor, atraso):
 
- """Form a complex number.
+	"""Form a complex number.
 
     Keyword arguments:
     real -- the real part (default 0.0)
